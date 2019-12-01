@@ -1,0 +1,67 @@
+.container
+{
+    position: relative;
+    height: 25vh;
+}
+.middle
+{
+    position: absolute;
+    top:40%;
+    transform: translateY(-50%);
+    transform: translateX(-10%);
+}
+.middles
+{
+    position: absolute;
+    top:50%;
+    transform: translateY(100%);
+    align-content: center;
+
+}
+.middless
+{
+    position: absolute;
+    transform: translateY(70%);
+    transform: translateX(10%);
+}
+.btn
+{
+    margin-right: 1rem;
+    color:white;
+    margin-top: 1rem;
+    min-width: 100px;
+    min-height: 40px;
+}
+.img_container
+{
+    min-height: 20vh;
+
+}
+.p-3
+{
+    padding: 1.5rem;
+}
+.disease
+{
+    color: rgb(52, 182, 52);
+}
+.m-3
+{
+    margin: 2rem;
+}
+.flex-right
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom:1rem; 
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .p {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+  }

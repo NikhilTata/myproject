@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+::placeholder {
+  color: black;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: black;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: black;
+}
+</style>
+<link rel="stylesheet" href="static/style.css">
+<form action="add">
+    <br>
+    <div class = "middless">
+    <input type="text" class="input" name="sym" placeholder="Enter the Symptom:" required><br>
+    <span class="p" style="color: white;">Enter the Age:</span>
+    <input type="text" class="input1" name="age"  placeholder="Enter the Age: " required>
+        <div class = "flex-right">
+            <input type="submit" class="btn" value="submit">
+        </div>
+    </div>
+</form>
+<br><br><br><br><br><br><br><br><br><br>
+<div class="container">
+        <img src="static/frame.jpg" alt="frame" style="width:100%;">
+        <h5><div class="centered disease middles" align = "center"><br><br>{{name}}</div></h5>
+      </div>
+
+{% endblock %}
+{% block content1 %}
+Result: {{resl}}
+{%endblock%}

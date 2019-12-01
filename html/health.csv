@@ -1,0 +1,5 @@
+sweating,chills,headache,shivering,muscle aches,loss of appetite,irritability,dehydration,general weakness,sneezing,stuffy nose,sore throat,low -grade fever,congestion,liquid running down the back of your throat ,shortness of breath,sour taste in your mouth,coughing blood,redeyes,itchiness,tearing,runny eyes,irritated eyes,swollen eyelids, paining eyes,burning eyes,sensitivity to light,disease,id
+1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Fever,1
+0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Cold,2
+0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,Cough,3
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,Eye Allergy,4
